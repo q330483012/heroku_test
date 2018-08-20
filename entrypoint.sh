@@ -77,8 +77,20 @@ cat <<-EOF > /v2raybin/v2ray-$V_VER-linux-$SYS_Bit/config.json
         }
     },
     "outbound":{
-        "protocol":"freedom",
+        "protocol":"vmess",
         "settings":{
+	"vnext":[
+	{
+		"add": "${AppName}.herokuapp.com",
+		"port": "443",
+		"users": [
+         {
+           "id": "${UUID}",
+           "alterId": ${AlterID},
+           "security": "auto"
+         }
+	}
+	]
         }
     }
 }
