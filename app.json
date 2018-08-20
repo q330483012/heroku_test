@@ -13,7 +13,7 @@
      }, 
     "UUID": {
        "description": "Vmess协议默认UUID，请输入自己的UUID",
-       "value": "4890bd47-5180-4b1c-9a5d-3ef686543112"
+       "value": "642e80ab-32e4-4208-84c5-a9e1ad8e0d7c"
      },
     "AlterID": {
        "description": "AlterID大小，推荐10，数值越大内存占用越高",
